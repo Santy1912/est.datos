@@ -3,7 +3,7 @@ Taller Práctico 01 - Sistema de Gestión de Taller de Reparación
 Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
-- Santiago Zuluaga - ID: [completar]
+- Santiago Zuluaga - ID: [000532192]
 - Nicolás Múnera - ID: [000280908]
 
 ADT TallerSystem: coordina órdenes, mecánicos, tipos de servicio válidos
@@ -169,7 +169,7 @@ if __name__ == "__main__":
     sistema.agregarMecanico(mecanico_motor)
     sistema.agregarMecanico(mecanico_frenos)
 
-    cliente1 = Cliente("Andrés Ríos", "andres@example.com", "3011112222", "AAA111")
+    cliente1 = Cliente("Santiago Zuluaga", "santi@gmail.com", "3011112222", "GVN211")
 
     # ---------- Caso de error: tipo de servicio no habilitado ----------
     try:

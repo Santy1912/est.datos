@@ -3,7 +3,6 @@
 ## 1. Información del Equipo
 
 | Integrante | ID |
-|---         |---|
 | Santiago Zuluaga | [000532192] |
 | Nicolás Múnera | [000280908] |
 

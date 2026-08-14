@@ -3,7 +3,7 @@ Taller Práctico 01 - Sistema de Gestión de Taller de Reparación
 Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
-- Santiago Zuluaga - ID: [completar]
+- Santiago Zuluaga - ID: [000532192]
 - Nicolás Múnera - ID: [000280908]
 
 Lista enlazada simple usada como historial: cada elemento nuevo se agrega
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     assert list(historial) == ["Orden3", "Orden2", "Orden1"]
     assert historial.size() == 3
 
-    # --- Caso de error: agregar None ---
+    # --- Caso de error agregar None ---
     try:
         historial.agregar_al_frente(None)
         assert False, "Debió lanzar excepción al agregar None"

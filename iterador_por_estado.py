@@ -3,7 +3,7 @@ Taller Práctico 01 - Sistema de Gestión de Taller de Reparación
 Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
-- Santiago Zuluaga - ID: [completar]
+- Santiago Zuluaga - ID: [000532192]
 - Nicolás Múnera - ID: [000280908]
 
 Iterador personalizado #1: recorre únicamente las órdenes que se encuentran
@@ -16,12 +16,11 @@ generadores usados en Queue, Bag y ListaEnlazada (iterador #2: historial).
 class IteradorPorEstado:
     """
     Recibe una colección de OrdenReparacion y un EstadoOrden objetivo.
-    Al iterar, va devolviendo solo las órdenes cuyo estado coincide,
-    avanzando de forma perezosa sobre una copia (snapshot) de la colección.
+    Al iterar va devolviendo solo las órdenes cuyo estado coincide
     """
 
     def __init__(self, ordenes, estado):
-        self._ordenes = list(ordenes)  # snapshot: evita efectos de mutaciones concurrentes
+        self._ordenes = list(ordenes) 
         self._estado = estado
         self._indice = 0
 

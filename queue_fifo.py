@@ -3,7 +3,7 @@ Taller Práctico 01 - Sistema de Gestión de Taller de Reparación
 Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
-- Santiago Zuluaga - ID: [completar]
+- Santiago Zuluaga - ID: [000532192]
 - Nicolás Múnera - ID: [000280908]
 
 ADT Queue: cola FIFO genérica implementada con nodos enlazados.

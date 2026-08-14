@@ -3,7 +3,7 @@ Taller Práctico 01 - Sistema de Gestión de Taller de Reparación
 Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
-- Santiago Zuluaga - ID: [completar]
+- Santiago Zuluaga - ID: [000532192]
 - Nicolás Múnera - ID: [000280908]
 
 Programa de demostración end-to-end: crea órdenes, las asigna
@@ -41,8 +41,8 @@ def main() -> None:
         print(f"Mecánico registrado: {m}")
 
     linea("2. Creación de órdenes")
-    cliente1 = Cliente("Andrés Ríos", "andres@example.com", "3011112222", "AAA111")
-    cliente2 = Cliente("Marta Ruiz", "marta@example.com", "3013334444", "BBB222")
+    cliente1 = Cliente("Santiago Zuluaga", "santi@gmail.com", "3011112222", "GVN211")
+    cliente2 = Cliente("Cristiano Ronaldo", "marta@hotmail.com", "3013334444", "ABC695")
 
     orden1 = sistema.crearOrden("Motor con ruido extraño", TipoServicio.MOTOR, cliente1)
     orden2 = sistema.crearOrden("Frenos chillan", TipoServicio.FRENOS, cliente2)

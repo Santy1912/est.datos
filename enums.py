@@ -3,7 +3,7 @@ Taller Práctico 01 - Sistema de Gestión de Taller de Reparación
 Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
-- Santiago Zuluaga - ID: [completar]
+- Santiago Zuluaga - ID: [000532192]
 - Nicolás Múnera - ID: [000280908]
 """
 
@@ -36,7 +36,7 @@ TRANSICIONES_VALIDAS = {
     EstadoOrden.ASIGNADA: {EstadoOrden.EN_REPARACION},
     EstadoOrden.EN_REPARACION: {EstadoOrden.REPARADA},
     EstadoOrden.REPARADA: {EstadoOrden.ENTREGADA},
-    EstadoOrden.ENTREGADA: set(),  # estado terminal
+    EstadoOrden.ENTREGADA: set(),
 }
 
 

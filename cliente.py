@@ -3,7 +3,7 @@ Taller Práctico 01 - Sistema de Gestión de Taller de Reparación
 Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
-- Santiago Zuluaga - ID: [completar]
+- Santiago Zuluaga - ID: [000532192]
 - Nicolás Múnera - ID: [000280908]
 
 ADT Cliente: representa al dueño del vehículo que ingresa al taller.
@@ -51,7 +51,7 @@ class Cliente:
     def get_placa_vehiculo(self) -> str:
         return self._placa_vehiculo
 
-    # ---------- Setters (con validación donde aplica) ----------
+    # ---------- Setters ----------
     def set_email(self, nuevo_email: str) -> None:
         if not _EMAIL_REGEX.match(nuevo_email or ""):
             raise ValueError(f"Email inválido: {nuevo_email!r}")
