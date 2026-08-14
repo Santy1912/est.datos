@@ -4,7 +4,7 @@ Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
 - Santiago Zuluaga - ID: [completar]
-- Nicolás Múnera - ID: [completar]
+- Nicolás Múnera - ID: [000280908]
 
 Iterador personalizado #1: recorre únicamente las órdenes que se encuentran
 en un estado específico. Implementa explícitamente el patrón Iterator de

@@ -4,7 +4,7 @@ Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
 - Santiago Zuluaga - ID: [completar]
-- Nicolás Múnera - ID: [completar]
+- Nicolás Múnera - ID: [000280908]
 
 Programa de demostración end-to-end: crea órdenes, las asigna
 automáticamente, las repara, las entrega y genera reportes usando

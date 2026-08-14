@@ -4,7 +4,7 @@ Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
 - Santiago Zuluaga - ID: [completar]
-- Nicolás Múnera - ID: [completar]
+- Nicolás Múnera - ID: [000280908]
 
 Lista enlazada simple usada como historial: cada elemento nuevo se agrega
 al frente, así que recorrerla produce del más reciente al más antiguo.

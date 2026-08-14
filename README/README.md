@@ -5,7 +5,7 @@
 | Integrante | ID |
 |---         |---|
 | Santiago Zuluaga | [000532192] |
-| Nicolás Múnera | [completar] |
+| Nicolás Múnera | [000280908] |
 
 **Lenguaje y versión:** Python 3.14.3 
 **Curso:** Estructuras de Datos y Algoritmos — 2026-20 — Facultad TIC, UPB.

@@ -4,7 +4,7 @@ Estructuras de Datos y Algoritmos - 2026-20
 
 Integrantes:
 - Santiago Zuluaga - ID: [completar]
-- Nicolás Múnera - ID: [completar]
+- Nicolás Múnera - ID: [000280908]
 
 ADT TallerSystem: coordina órdenes, mecánicos, tipos de servicio válidos
 e historial de reparaciones finalizadas.
