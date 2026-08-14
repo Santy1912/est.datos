@@ -12,14 +12,14 @@ e historial de reparaciones finalizadas.
 
 from typing import List, Optional
 
-from enums import EstadoOrden, TipoServicio
-from queue_fifo import Queue
-from bag import Bag
-from lista_enlazada import ListaEnlazada
-from orden_reparacion import OrdenReparacion
-from mecanico import Mecanico
-from cliente import Cliente
-from iterador_por_estado import IteradorPorEstado
+from codigo_fuente.enums import EstadoOrden, TipoServicio
+from codigo_fuente.queue_fifo import Queue
+from codigo_fuente.bag import Bag
+from codigo_fuente.lista_enlazada import ListaEnlazada
+from codigo_fuente.orden_reparacion import OrdenReparacion
+from codigo_fuente.mecanico import Mecanico
+from codigo_fuente.cliente import Cliente
+from codigo_fuente.iterador_por_estado import IteradorPorEstado
 
 
 class TallerSystem:

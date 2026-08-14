@@ -14,7 +14,7 @@ import itertools
 from datetime import datetime
 from typing import Optional
 
-from enums import EstadoOrden, TipoServicio, TRANSICIONES_VALIDAS
+from codigo_fuente.enums import EstadoOrden, TipoServicio, TRANSICIONES_VALIDAS
 
 
 class OrdenReparacion:
@@ -106,8 +106,8 @@ class OrdenReparacion:
 
 
 if __name__ == "__main__":
-    from mecanico import Mecanico
-    from cliente import Cliente
+    from codigo_fuente.mecanico import Mecanico
+    from codigo_fuente.cliente import Cliente
 
     cliente = Cliente("Marta Ruiz", "marta@example.com", "3001112233", "JKL456")
     mecanico = Mecanico("Diego Torres", TipoServicio.FRENOS)

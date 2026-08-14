@@ -13,7 +13,7 @@ como máximo una orden asignada a la vez.
 import itertools
 from typing import Optional
 
-from enums import TipoServicio
+from codigo_fuente.enums import TipoServicio
 
 
 class Mecanico:

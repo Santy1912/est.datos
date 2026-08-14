@@ -11,10 +11,10 @@ automáticamente, las repara, las entrega y genera reportes usando
 los iteradores implementados.
 """
 
-from enums import EstadoOrden, TipoServicio
-from taller_system import TallerSystem
-from mecanico import Mecanico
-from cliente import Cliente
+from codigo_fuente.enums import EstadoOrden, TipoServicio
+from codigo_fuente.taller_system import TallerSystem
+from codigo_fuente.mecanico import Mecanico
+from codigo_fuente.cliente import Cliente
 
 
 def linea(titulo: str) -> None:

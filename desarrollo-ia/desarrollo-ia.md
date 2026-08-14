@@ -259,4 +259,3 @@
 
 ---
 
-*Fin de la Parte 2 (PRD). Las Partes 1, 3, 4, 5 y 6 se completarán a medida que se avance en la implementación de cada componente, según la metodología del curso.*

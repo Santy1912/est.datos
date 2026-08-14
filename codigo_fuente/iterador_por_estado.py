@@ -37,9 +37,9 @@ class IteradorPorEstado:
 
 
 if __name__ == "__main__":
-    from enums import EstadoOrden, TipoServicio
-    from orden_reparacion import OrdenReparacion
-    from cliente import Cliente
+    from codigo_fuente.enums import EstadoOrden, TipoServicio
+    from codigo_fuente.orden_reparacion import OrdenReparacion
+    from codigo_fuente.cliente import Cliente
 
     cliente = Cliente("Test Cliente", "test@example.com", "300", "TST111")
     o1 = OrdenReparacion("Falla 1", TipoServicio.MOTOR, cliente)
